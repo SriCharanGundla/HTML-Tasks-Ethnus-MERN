@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-6</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: blue">Registration Form</h1>
+      <form novalidate style="display: flex; flex-direction: column; gap: 10px">
+        <div class="in-grp">
+          <label for="fname"> <b>First Name:</b> </label>
+          <input type="text" id="fname" />
+        </div>
+        <div class="in-grp">
+          <label for="lname"><b>Last Name:</b></label>
+          <input type="text" id="lname" />
+        </div>
+
+        <div class="in-grp">
+          <label for="email"><b>Email:</b></label>
+          <input type="email" id="email" />
+        </div>
+        <div class="check">
+          <label for="gender"><b>Gender:</b></label>
+          <input type="checkbox" id="gender" value="Male" /><b>Male</b>
+          <input type="checkbox" id="gender" value="Female" /><b>Female</b>
+        </div>
+        <div class="in-grp">
+          <label for="age"><b>Age:</b></label>
+          <input type="number" id="age" />
+        </div>
+
+        <div class="in-grp">
+          <label for="phn"><b>Phone Number:</b></label>
+          <input type="number" id="phn" />
+        </div>
+
+        <div class="in-grp">
+          <label for="address"><b>Address:</b></label>
+          <textarea id="address"></textarea>
+        </div>
+
+        <div class="in-grp">
+          <label for="state"><b>State:</b></label>
+          <input type="text" id="state" />
+        </div>
+
+        <div class="in-grp">
+          <label for="country"><b>Country:</b></label>
+          <select id="country">
+            <option value="def" selected>Select a country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+          </select>
+        </div>
+        <div class="check">
+          <label for="lang"><b>Languages Known:</b></label>
+          <input type="checkbox" id="lang" value="English" /><b>English</b>
+          <input type="checkbox" id="lang" value="Telugu" /><b>Telugu</b>
+          <input type="checkbox" id="lang" value="Hindi" /><b>Hindi</b>
+          <input type="checkbox" id="lang" value="Kannada" /><b>Kannada</b>
+        </div>
+        <div class="check">
+          <input type="checkbox" id="declaration" />Hereby I declare all the
+          given details are true.
+        </div>
+
+        <input type="button" value="Register" style="width: 80px;"/>
+      </form>
+    </div>
+  </body>
+</html>

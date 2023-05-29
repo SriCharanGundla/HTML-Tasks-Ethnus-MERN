@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-7</title>
+  </head>
+  <body>
+    <div class="container">
+      <form novalidate style="display: flex; flex-direction: column; gap: 10px;">
+        <div class="in-grp">
+          <label for="fname"> Full Name: </label>
+          <input type="text" id="fname" />
+        </div>
+        <div class="in-grp">
+          <label for="uname">Username:</label>
+          <input type="text" id="uname" />
+        </div>
+
+        <div class="in-grp">
+          <label for="pwd">Password:</label>
+          <input type="password" id="pwd" />
+          <p id="ppwd"></p>
+        </div>
+
+        <div class="in-grp">
+          <label for="repwd">Re-Password:</label>
+          <input type="password" id="repwd" />
+          <p id="prepwd"></p>
+        </div>
+
+        <div class="in-grp">
+            <label for="address">Address:</label>
+            <input type="text" id="address"></in>
+          </div>
+
+        <div class="in-grp">
+          <label for="age">Age:</label>
+          <input type="number" id="age" />
+        </div>
+
+        <div class="in-grp">
+            <label for="gender">Gender:</label>
+            <select id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <input type="button" value="Save" style="width: 60px" />
+      </form>
+    </div>
+
+    <style>
+        label {
+            width: 100px;
+            display: inline-block;
+        }
+
+        .in-grp {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+    </style>
+  </body>
+</html>
